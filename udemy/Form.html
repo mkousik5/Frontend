@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label>First Name:</label>
+		<input type="text" name="name" required>
+		</label>
+		<label>Last Name:
+		<input type="text" name="name" required>
+		</label> <br>
+		<label>Male</label>
+		<input type="radio" name="sex" value="male">
+		<label>Female</label>
+		<input type="radio" name="sex" value="female">
+		<label>Other</label>
+		<input type="radio" name="sex" value="other">
+		<br>
+		<label>Email:
+		<input type="email" name="email" required>
+		</label>
+		<label>Password:
+		<input type="password" name="pass" required minlength="6" maxlength="24">
+		</label> <br>
+		<label>Birthday:
+		<select name="month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>March</option>
+		</select>
+		<select name="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name="year">
+			<option>Year</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+		</select>
+		</label>
+		<p>I agree to the terms and conditions <input type="checkbox" name="true"></p>
+		<button>Submit</button>
+
+	</form>
+
+</body>
+</html>

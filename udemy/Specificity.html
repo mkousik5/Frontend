@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		body {
+			color: red;
+		}
+		ul	{
+			color: blue;
+		}
+		li	{
+			color: orange;
+		}
+		.High {
+			color: pink;
+		}
+		#IMP {
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<p>Hello</p>
+	<ul>
+		<li id="IMP" class="High">OO</li>
+		<li>OOMMMM</li>
+		<li>Ommmmmmmm</li>
+		<li class="High">OOOOOOOOMMMMMMMMMMM</li>
+	</ul>
+</body>
+</html>
